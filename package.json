@@ -23,9 +23,13 @@
       "react",
       "stage-1",
       "es2015"
+    ],
+    "plugins": [
+      "transform-class-properties"
     ]
   },
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.10.2",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
   }
